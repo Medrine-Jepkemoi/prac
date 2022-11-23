@@ -2,3 +2,7 @@
     background-color: rgba(15, 30, 43, 0.85);
     color: white;
 }
+
+.container{
+    display: flex;
+}
