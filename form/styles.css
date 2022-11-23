@@ -1,11 +1,14 @@
 *{
     background-color: rgba(15, 30, 43, 0.85);
     color: white;
+    
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
+    margin: 10px 200px 10px 300px;
+    padding:20px 10px 200px 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -15,6 +18,11 @@ img {
     width: 200px;
     height: 50px;
 }
+
+.item{
+    flex: 2;
+}
+    
 
 .inputs {
     margin-top: 10px;
@@ -33,4 +41,9 @@ input {
     border: 1px solid green;
     border-style: ridge;
 }
+
+.buttons{
+    display: inline-block;
+}
+
 
