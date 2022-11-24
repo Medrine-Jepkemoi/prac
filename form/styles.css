@@ -29,7 +29,7 @@
 }
 
 img {
-    background: rgba(15, 30, 43, 0.85);
+    background-color: rgba(15, 30, 43, 0.85);
     display: flex;
     transform: rotate(-5deg);
     margin: 50px 50px 50px 20px;
@@ -49,10 +49,11 @@ img {
 }
 
 input {
-    background-color: rgba(15, 30, 43, 0.85);
+    background-color: rgba(45, 61, 78, 0.85);
     width: 370px;
     height: 30px;
-    border-color: green;
+    border-color: rgb(68, 141, 68);
+    border-width: 0.25px;
     border-style: solid;
 }
 
